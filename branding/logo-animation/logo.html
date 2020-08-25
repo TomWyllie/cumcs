@@ -1,4 +1,6 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1200px" height="1200px" viewBox="0 0 12000 12000" preserveAspectRatio="xMidYMid meet">
 <style>
     :root {
@@ -24,7 +26,7 @@
 
     #eye-ball {
         transform-origin: 6017px 7120px;
-        animation: blink 4000ms ease-in-out infinite;
+        animation: blink 4000ms ease-in-out infinite 1000ms;
     }
 
     @keyframes left-swim {
@@ -44,8 +46,8 @@
 
     @keyframes blink {
         0% {transform: scaleY(1.0);}
-        94% {transform: scaleY(1.0);}
-        97% {transform: scaleY(0.0) rotate(-50deg);}
+        3% {transform: scaleY(0.0) rotate(-50deg);}
+        6% {transform: scaleY(1.0);}
         100% {transform: scaleY(1.0);}
     }
 
